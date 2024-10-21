@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from assistify-svelte.vercel.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Aug 2024 07:07:00 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="tronpixel favocon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tronpixel</title>
+
+	<link rel="stylesheet" href="css/modal.css">
+
+	<script src="New Js/jquery-3.3.1.min.js"></script>
+  <script src="New Js/remodal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+  
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;family=Open+Sans:wght@400;700&amp;display=swap"
+  rel="stylesheet"
+  />
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175172407-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-175172407-1');
+  </script>
+  
+
+
+
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+      <div>
+        <header>
+          <div class="desktop-header" data-svelte-h="svelte-1jk5e8c">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <a href="index.html"><img src="img/TRONPIXEL.png" alt="logo" width="200px" /></a>
+                </div>
+                <div class="col-md-8">
+                  <nav>
+                    <ul>
+                      <li><a href="#about">About Us</a></li>
+                      <!-- <li><a href="examples.html">Examples</a></li>
+                      <li><a href="integrations.html">Integrations</a></li>
+                      <li><a href="pricing.html">Pricing</a></li>
+                      <li><a href="contact.html">Contact</a></li> -->
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-md-2 text-end">
+                  <a href="contact.html" class="btn btn-secondary" data-remodal-target="invest" style="width: 80%;"
+                    >Contribution</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-header">
+            <a href="index.html" data-svelte-h="svelte-1796zqd"
+              ><img src="img/TRONPIXEL.png" alt="logo" width="200px"
+            /></a>
+            <span class="mobile-menu-open-icon" data-svelte-h="svelte-yqlzdi"
+              ><svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    id="Vector"
+                    d="M12 17H19M5 12H19M5 7H19"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g></svg
+            ></span>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.mobile-menu-open-icon');
+    const menu = document.querySelector('.mobile-menu');
+  
+    menuIcon.addEventListener('click', function() {
+      menu.classList.toggle('open');
+    });
+  });
+  
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.mobile-menu-open-icon');
+    const menu = document.querySelector('.mobile-menu');
+    const closeIcon = document.querySelector('.mobile-menu-close-icon');
+  
+    if (menuIcon) {
+      menuIcon.addEventListener('click', function() {
+        console.log('Menu icon clicked');
+        menu.classList.add('open');
+      });
+    }
+  
+    if (closeIcon) {
+      closeIcon.addEventListener('click', function() {
+        console.log('Close icon clicked');
+        menu.classList.remove('open');
+      });
+    }
+  });
+  
+</script>
+
+
+            <div class="mobile-menu">
+              <strong class="mobile-menu-close-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z"
+                  ></path>
+                </svg>
+              </strong>
+              <nav>
+                <ul>
+                  <li data-svelte-h="svelte-j24162">
+                    <a href="#about">About Us</a>
+                  </li>
+                  <!-- <li data-svelte-h="svelte-hkod0j">
+                    <a href="examples.html">Examples</a>
+                  </li>
+                  <li data-svelte-h="svelte-1ujlz0f">
+                    <a href="integrations.html">Integrations</a>
+                  </li>
+                  <li data-svelte-h="svelte-1xu03gr">
+                    <a href="pricing.html">Pricing</a>
+                  </li>
+                  <li data-svelte-h="svelte-1dqhc03">
+                    <a href="contact.html">Contact</a>
+                  </li> -->
+                </ul>
+              </nav>
+              <a href="contact.html"
+                class="btn btn-secondary"
+                data-svelte-h="svelte-1amfsta" data-remodal-target="invest"
+                >Contribution</a >
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="hero-area" data-svelte-h="svelte-38b2qe">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="title">
+                    Verified & Audited  <br />
+                    <span>Smart-contract</span>
+                  </h1>
+                  <p class="mx-850 text-center">
+					Chance to earn Million  <br> Tron Trusted and Verified Smart Contract
+                  </p>
+                  <div class="hero-btn">
+                    <a href="contact.html" class="btn btn-primary" data-remodal-target="invest" 
+                      >Make Contribution Now</a>
+                    <a href="pricing.html" class="btn btn-tertiary" data-remodal-target="wallet"
+                      >Your Wallet Statistics</a>
+                  </div>
+
+
+
+				  <div>
+					<a href="Tronpixel.pdf" target="_blank" class="audit"> Presentation					</a>
+				  </div>
+	    
+                  <!-- <div class="hero-chat mx-850">
+                    <div class="hero-chat-list">
+                      <div class="hero-chat-item">
+                        <img src="img/user.svg" alt="user" />
+                        <div class="hero-chat-item-content">
+                          <h3>You <span>1:17 PM</span></h3>
+                          <p>
+                            What was the revenue generated during the Black
+                            Friday Sale 2022 campaign?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="hero-chat-item">
+                        <img src="img/user-assistify.svg" alt="user" />
+                        <div class="hero-chat-item-content">
+                          <h3>Assistify <span>1:17 PM</span></h3>
+                          <p>
+                            The revenue generated during the Black Friday Sale
+                            2022 campaign was $20,000.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="hero-chat-item">
+                        <img src="img/user.svg" alt="user" />
+                        <div class="hero-chat-item-content">
+                          <h3>You <span>1:17 PM</span></h3>
+                          <p>
+                            What was the open rate for the Black Friday Sale
+                            2022 campaign?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="hero-chat-item">
+                        <img src="img/user-assistify.svg" alt="user" />
+                        <div class="hero-chat-item-content">
+                          <h3>Assistify <span>1:17 PM</span></h3>
+                          <p>
+                            The open rate for the Black Friday Sale 2022
+                            campaign was 25%.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hero-chat-input">
+                      <input type="text" placeholder="Type your message" />
+                      <button><img src="img/mail.svg" alt="mail" /></button>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="hero-brand" data-svelte-h="svelte-1epagmc">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-center">Preferred by Teams at</p>
+                  <ul>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/1.png" alt="brand"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/2.png" alt="brand"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/3.png" alt="brand"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/4.png" alt="brand"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/5.png" alt="brand"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="%21.html#"
+                        ><img src="img/brand/6.png" alt="brand"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="feature-area mt-192" data-svelte-h="svelte-83uj50" id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title-2">
+					Why choose  <span>Tronpixel </span>Community
+                  </h2>
+                </div>
+              </div>
+              <div class="row gy-4">
+                <div class="col-md-4">
+                  <div class="feature-item">
+                    <img src="img/icon/1.svg" alt="icon" />
+                    <h3>Safe & Secure</h3>
+                    <p>
+                      You can view all the transactions and details that have occurred since the Smart Contract was launched in real time by visiting the Contract page.                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature-item">
+                    <img src="img/icon/2.svg" alt="icon" />
+                    <h3>Fully decentralized platform</h3>
+                    <p>
+                      100% Decentralized. No Owner, No Admin, No Back Doors, No Hit & Run. The Contract Balance remains in the Contract itself and goes back to the community contributors.This platform operates according to the specified smart contracts and runs on blockchain, allowing anyone to join a trustworthy decentralized network that operates on a peer-to-peer system.                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="feature-item">
+                    <img src="img/icon/3.svg" alt="icon" />
+                    <h3>Worldwide legal company with professional team</h3>
+                    <p>
+                      We are a reputable team of experts on the blockchain market, We're working around the clock to increase the platform's popularity and turn it into a way for people all around the world to earn millions of Tron.                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="solution-area mtb-192" data-svelte-h="svelte-1q3a2rm">
+            <div class="container">
+              <div class="row">
+                <!-- <div class="col-md-12">
+                  <h2 class="title-2">
+                    Your All-in-One Intelligent AI
+                    <span>Assistant Solution</span>
+                  </h2>
+                </div> -->
+                <div class="col-md-12">
+                  <!-- <div class="solution-item">
+                    <div class="row align-items-center">
+                      <div class="col-md-6 pr-47">
+                        <img src="img/solution.svg" alt="solution" />
+                      </div>
+                      <div class="col-md-6 pl-47">
+                        <h3>Seamless Integrations</h3>
+                        <p>
+                          Effortlessly connect tools, databases, or import
+                          files. Assistify ensures compatibility with various
+                          platforms and file formats for a seamless experience.
+                        </p>
+                        <a href="conversations.html" class="btn btn-secondary"
+                          >Learn more</a
+                        >
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="solution-item">
+                    <div class="row align-items-center">
+                      <div class="col-md-6 pr-47">
+                        <h3>Bonus Calculator</h3>
+                         <!-- Bonus Calculator -->
+                    <div class="calculator">
+						<div class="input-group">
+							<p style="color: #ffffff;">You’ll contribute</p>
+							<input type="number" id="contribution" placeholder="0" oninput="updateContribution()" />
+						</div>
+						<div class="input-group">
+							<input type="number" id="days" placeholder="Days" oninput="updateDays()" />
+						</div>
+						<div class="output" id="output">Current profit: 0%</div>
+						<!-- <button class="btn" >Make Contribution</button> -->
+						
+						<div class="info">
+							<p> <span id="dynamicContribution" style="color: rgb(35, 192, 192); margin: 0 5px;">0  </span>TRX </p>
+							<p style="font-weight: bold;">Contribution Amount</p>
+							<p> <span id="dynamicBonus" style="color: rgb(35, 192, 192); margin: 0 5px;">0 </span>TRX </p>
+  
+							<!-- <p><img src="https://via.placeholder.com/20" alt="icon" /> <span id="dynamicBonus" style="color: rgb(35, 192, 192);">0 TRX</span> </p> -->
+  
+							<p style="font-weight: bold;">Bonus Reached in <span id="dynamicDays" style="color: rgb(35, 192, 192); margin: 0 5px;">0</span> days</p>
+  
+							<div class="hero-btn">
+								<a href="contact.html" class="btn btn-primary" data-remodal-target="invest" style="width: 80%;"
+								  >Make Contribution Now</a
+								>
+								<!-- <a href="pricing.html" class="btn btn-tertiary" data-remodal-target="wallet"
+								  >Your Wallet Statistics</a
+								> -->
+							  </div>
+  
+							<p>Tronpixel is a decentralized, community-based, 100% fair, and smart contract-verified contribution platform. It’s also the safest contribution platform available.</p>
+						</div>
+					</div>
+  
+					<!-- Bonus Calculator -->
+  
+			
+          <script>
+            function updateContribution() {
+                const contribution = document.getElementById('contribution').value;
+                document.getElementById('dynamicContribution').textContent = contribution;
+                calculateBonus();
+            }
+    
+            function updateDays() {
+                const days = document.getElementById('days').value;
+                document.getElementById('dynamicDays').textContent = days;
+                calculateBonus();
+            }
+    
+            function calculateBonus() {
+                const contribution = parseFloat(document.getElementById('contribution').value);
+                const days = parseFloat(document.getElementById('days').value);
+                if (!isNaN(contribution) && !isNaN(days) && days > 0) {
+                    const day = days * 3;
+                    const bonus = (contribution * day) /100;
+                    const formattedBonus = (bonus % 1 === 0) ? bonus.toString() : bonus.toFixed(2);
+                    document.getElementById('output').textContent = `Current profit: ${formattedBonus} TRX`;
+                    document.getElementById('dynamicBonus').textContent = formattedBonus;
+                } else {
+                    document.getElementById('output').textContent = 'Please enter Current Profit';
+                    document.getElementById('dynamicBonus').textContent = '0';
+                }
+            }
+        </script>
+                        <!-- <a href="conversations.html" class="btn btn-secondary"
+                          >Learn more</a
+                        > -->
+                      </div>
+                      <div class="col-md-6 pl-47 mt-30">
+                        <div class="solution-item-list">
+                          <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>Earn 3% Daily Up to 300% of your contribution.</h4>
+                              <!-- <p>
+                                Chat assistant for the marketing &amp; paid ads
+                                team.
+                              </p> -->
+                            </div>
+                          </div>
+                          <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>Hourly ROI Calculation. Get 0.125% Every Hour. </h4>
+                              <!-- <p>Chat assistant for the Sales teams.</p> -->
+                            </div>
+                          </div>
+                          <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>13 Level Referral Bonus – 5%, 4%, 3%, 2%, 1%, 1%, 1%, 0.5, 0.5%, 0.5%, 0.5%, 0.5%.</h4>
+                              <!-- <p>
+                                Chat assistant for the Finance &amp; Accounting
+                                teams.
+                              </p> -->
+                            </div>
+                          </div>
+                          <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>Withdrawal Allowed Anytime. </h4>
+                              <!-- <p>
+                                Chat assistant for the Product &amp; engineering
+                                teams.
+                              </p> -->
+                            </div>
+                          </div>
+						  <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>Minimum Investment – 100 TRX. Maximum – Unlimited. </h4>
+                              <!-- <p>
+                                Chat assistant for the Product &amp; engineering
+                                teams.
+                              </p> -->
+                            </div>
+                          </div>
+						  <div class="solution-single">
+                            <img src="img/check.svg" alt="check" />
+                            <div>
+                              <h4>40% of your withdrawal is automatically re-invested for Higher Sustainability.</h4>
+                              <!-- <p>
+                                Chat assistant for the Product &amp; engineering
+                                teams.
+                              </p> -->
+                            </div>
+                          </div>
+						  <div class="hero-btn">
+							<a href="contact.html" class="btn btn-primary" 
+							  >Contract</a
+							>
+							<!-- <a href="pricing.html" class="btn btn-tertiary" data-remodal-target="wallet"
+							  >Your Wallet Statistics</a
+							> -->
+						  </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+				  <div class="row">
+					<div class="col-md-12">
+					  <h2 class="title-2" data-svelte-h="svelte-12u06hv">
+						How  <span>Tronpixel</span> Works
+					  </h2>
+					  <h2 class="title-2" data-svelte-h="svelte-12u06hv">
+						The  <span>Most</span> Competitive Market Offer
+					  </h2>
+					  <!-- <div class="pricing-tab">
+						<button class="active">Monthly</button
+						><button>Yearly</button>
+					  </div> -->
+					</div>
+				  </div>
+                  <div class="solution-item">
+                    <div class="row align-items-center">
+                      <div class="col-md-6 pr-47">
+                        <div class="solution-item-list solution-item-chat">
+                          <div class="solution-chat-message">
+                            <div class="solution-chat-message-item">
+                              <img src="img/user.svg" alt="user" />
+                              <div class="solution-chat-message-item-content">
+                                <h3>Basic Bonus rate</h3>
+								<h6 style="color: silver;">+3% every 24 hours (+0.125% hourly)</h6>
+                                <p>
+                                  The Tronpixel smart-contract Figures out all the sums. Every contribution
+                                  which has been completed since the date and time it was made gets eligible
+                                  for a bonus percentage. Every hour, members will receive 0.125%, and every day,
+                                  members will receive 3%. <span style="color: aqua;"> +0.125%</span>, every day <span style="color: aqua;">+3%</span>.
+                                </p>
+                              </div>
+                            </div>
+                            <div class="solution-chat-message-item">
+                              <img src="img/user-assistify.svg" alt="user" />
+                              <div class="solution-chat-message-item-content">
+                                <h3> Personal Hold Bonus</h3>
+								<h6 style="color: silver;">0.5% FOR EVERY 24 HOURS, WITHOUT WITHDRAWING. </h6>
+
+                                <p>The hold-bonus is calculated by smart-contract based on your contribution
+                                  or last withdraw date. It will give you an additional bonus if you did not request
+                                  payment. After 24 hours, add <span style="color: aqua;">+0.1%</span>, after 48 hours <span style="color: aqua;">+0.2%</span>, after 72 hours <span style="color: aqua;">+0.3%</span>
+                                  and so on up to 3%.</p>
+                               
+                              </div>
+                            </div>
+                            <div class="solution-chat-message-item">
+                              <img src="img/user.svg" alt="user" />
+                              <div class="solution-chat-message-item-content">
+                                <h3> Community Bonus</h3>
+								<h6 style="color: silver;">+0.5% FOR EVERY 5 DIRECT IN YOUR TEAM</h6>
+
+                                <p>+0.5% will be added as an additional bonus when a member
+                                  directly adds 5 members under him. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 pl-47 mt-30">
+                                
+<div class="totalsumblock">
+	<div class="totalsumwrap" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+		<div class="totalsumwrapvalue">
+			<div class="totalsumdesc">
+			Total Invested Amount (TRX):
+			</div>
+			<div class="totalsumnum totalInvested">0</div> 
+		</div>
+		<div class="totalsumwrapvalue">
+			<div class="totalsumdesc">
+			Total Active Participants:
+			</div>
+			<div class="totalsumnum1 totalsumnum totalUsers" data-max="0"></div>
+		</div>
+	   
+	</div>
+	<div class="totalsumwrap" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+	</div>
+</div>
+
+<div class="totalsumdesc" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+  Current Platform Balance (TRX):
+</div>
+<div class="totalsumnum1 totalsumnum trxbalance contractBalance" data-max="0" data-scroll="toggle(.fromRightIn, .fromRightOut)"></div>
+
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- <h2 class="title-2" data-svelte-h="svelte-12u06hv">
+                    Select a <span>Pricing Plan</span>
+                  </h2> -->
+                  <!-- <div class="pricing-tab">
+                    <button class="active">Monthly</button
+                    ><button>Yearly</button>
+                  </div> -->
+                </div>
+              </div>
+              <div class="row gy-4">
+                <div class="col-md-4">
+                  <div
+                    class="pricing-item"
+                    data-monthly-price="$9"
+                    data-yearly-price="$99"
+                  >
+                    <h3><!-- HTML_TAG_START -->Make contribution<!-- HTML_TAG_END --></h3>
+                    <p>SEND TRX TO OUR SMART-CONTRACT</p>
+                    <!-- <h4><span>$9</span> <sub>/m</sub></h4>
+                    <p data-svelte-h="svelte-1hp37g4">
+                      Pause or cancel anytime
+                    </p> -->
+                    <div class="pricing-button"  data-svelte-h="svelte-1gyzlls" data-remodal-target="invest" >
+                      <!-- <button>Start Trial</button> -->
+					   <button>Make Contributon Now</button>
+                    </div>
+                    <ul>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Invest a minimum of 100 TRX to the smart contract address to begin earning immediately. There is no upper limit on contributions.
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        We recommend using Trust Wallet TronLink, Token Pocket, Klever, or any TRX-supported wallet. TRX coins are available on major exchanges.
+                      </li>
+                      <!-- <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Integrations: Unlimited
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Total message: 150
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Assistants: 2
+                      </li> -->
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="pricing-item"
+                    data-monthly-price="$29"
+                    data-yearly-price="$269"
+                  >
+                    <h3>
+                      <!-- HTML_TAG_START -->Get earnings
+                      <!-- <img
+                        src="img/pro-btn.svg"
+                        alt="pro"
+                      />HTML_TAG_END -->
+                    </h3>
+                    <p>Additional earnings with referral program</p>
+                    <!-- <h4><span>$29</span> <sub>/m</sub></h4>
+                    <p data-svelte-h="svelte-1hp37g4">
+                      Pause or cancel anytime
+                    </p> -->
+                    <div class="pricing-button" data-svelte-h="svelte-1gyzlls" data-remodal-target="wallet" >
+                      <!-- <button>Start Trial</button>  -->
+					  <button>Your Wallet Statistics</button>
+                    </div>
+                    <ul>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Earn affiliate rewards across 13 levels: 5%, 4%, 3%, 2%, 1%, 1%, 1%, 0.5, 0.5%, 0.5%, 0.5%, 0.5%.                </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Referral rewards are added to your wallet immediately and can be withdrawn anytime.
+
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Receive a 10% matching commission on your partner's withdrawals.
+
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Each direct partner unlocks a new level, with a maximum of 13 levels.
+
+                      </li>
+                      <!-- <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Assistants: 5
+                      </li> -->
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="pricing-item"
+                    data-monthly-price="$59"
+                    data-yearly-price="$699"
+                  >
+                    <h3>
+                      <!-- HTML_TAG_START -->Request withdraw<!-- HTML_TAG_END -->
+                    </h3>
+                    <p>Request TRX Withdraw</p>
+                    <!-- <h4><span>$59</span> <sub>/m</sub></h4>
+                    <p data-svelte-h="svelte-1hp37g4">
+                      Pause or cancel anytime
+                    </p> -->
+                    <!-- <div class="pricing-button" data-svelte-h="svelte-1gyzlls">
+                      <button>Start Trial</button> <button>Subscribe</button>
+                    </div> -->
+                    <ul>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Payments are made instantly.
+
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Withdraw from the same wallet you used to deposit.
+
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Withdraw all funds and referrals in one transaction per request.
+
+
+                        <!-- <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Total message: 1650
+                      </li>
+                      <li>
+                        <img
+                          src="img/check.svg"
+                          alt="check"
+                          width="24"
+                          height="24"
+                        />
+                        Assistants: 12
+                      </li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="container" data-svelte-h="svelte-cs5927">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="ready-section">
+                  <h2 class="title-2"><span>Smart-Contract Address</span></h2>
+                  <!-- <p>
+                    Embark on the journey of creating your very own AI-powered
+                    assistant effortlessly.
+                  </p> -->
+                  <a href="#" class="btn btn-primary">Comming Soon</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer data-svelte-h="svelte-1aen28v">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <img src="img/TRONPIXEL.png" alt="logo" width="200px" />
+                <!-- <p>
+                  Step into the future of effortless assistance, where
+                  innovation meets simplicity.
+                </p> -->
+              </div>
+              
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <div class="row gy-2">
+                <div class="col-md-6 align-self-center">
+                  <p>Copyright © 2024 Tronpixel. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>
+                      <a href="terms-of-service.html">Terms of Service</a>
+                    </li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <script>
+        {
+          __sveltekit_njmxxa = {
+            base: new URL(".", location).pathname.slice(0, -1),
+          };
+
+          const element = document.currentScript.parentElement;
+
+          const data = [null, null];
+
+          Promise.all([
+            import("_app/immutable/entry/start.X5UFuoCg.js"),
+            import("_app/immutable/entry/app.nBA-fZvo.js"),
+          ]).then(([kit, app]) => {
+            kit.start(app, element, {
+              node_ids: [0, 2],
+              data,
+              form: null,
+              error: null,
+            });
+          });
+        }
+      </script>
+    </div>
+
+
+
+
+<!-- Modal Start -->
+
+
+<div class="remodal" data-remodal-id="invest">
+  <a data-remodal-action="close" class="remodal-close"></a>
+  <h1 style="color: #2b2b2b;">Make New Contribution</h1>
+  <div class="modaldesc">
+    <form class="maincontform authFalse">
+      <input type="text" placeholder="Connect with your wallet app..." readonly>
+      <div class="modalref">
+          Connect with your <b class="gt" style="color: rgb(35, 192, 192);">TronLink</b> / <b class="gt"  style="color: rgb(35, 192, 192);">TronPay</b> browser extension, or <b class="gt"  style="color: rgb(35, 192, 192);">TronWallet</b> / <b class="gt"  style="color: rgb(35, 192, 192);">Banko</b> mobile app. After connection you will get the opportunity to make a contribution (reload this page).
+          <br>
+          <u>Please, contact our support team if you can't connect.</u>
+          <br><br>
+          <div class="userRefererDiv" style="color: #2b2b2b;">
+              <i class="fa fa-user-friends" ></i> Your upline partner wallet: <span class="userReferer">No upline</span>
+          </div>
+      </div>
+  </form>
+  <form class="maincontform authTrue" style="display: none;">
+      <label>
+          Specify deposit <img src="img/tron.svg" alt="" style="height: 16px;"> TRX amount here:
+      </label>
+      <input class="trxAmount1" type="text" placeholder="Enter Amount">
+      <div class="trxAmountError11 error" style="display: none;">Minimum amount is 100 TRX</div>
+      <div class="trxAmountError12 error" style="display: none;">Minimum amount is 100 TRX</div>
+      <input type="submit" value="Make deposit" class="maindescbut investButton1">
+     
+  </form>
+
+          </div>
+  <div class="modaldesc">
+    <div class="dashmodal"></div>
+    <div class="modalline">
+        <b class="gt" style="color: rgb(35, 192, 192);"><i class="fas fa-exclamation-triangle"></i> IMPORTANT!</b> Do not forget about blockchain fee! You should have 100-120 TRX more on your wallet, or your transaction will get out of energy status!
+    </div>
+    <br>
+    <div class="modalline">
+        <i class="fas fa-check-circle" style="color: rgb(35, 192, 192);"></i> Minimal deposit amount: <b style="color: rgb(35, 192, 192);">100 TRX</b> (no maximal limits)
+    </div>
+    <div class="modalline">
+        <i class="fas fa-check-circle" style="color: rgb(35, 192, 192);"></i> We are working only with <img src="media/img/tron.png" alt="" style="height: 16px;"> TRON (TRX) cryptocurrency
+    </div>
+    <div class="modalline">
+        <i class="fas fa-check-circle" style="color: rgb(35, 192, 192);"></i> Your deposit will be activated after <b style="color: rgb(35, 192, 192);">1 confirmation</b> in blockchain
+    </div>
+    <div class="modalline">
+        <i class="fas fa-check-circle" style="color: rgb(35, 192, 192);"></i> Earnings come every moment on your wallet balance, you can withdraw it any time you want
+    </div>
+  </div>
+</div>
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            const amountInput = document.querySelector('.trxAmount1');
+            const errorNoAmount = document.querySelector('.trxAmountError11');
+            const errorMinAmount = document.querySelector('.trxAmountError12');
+            const depositForm = document.querySelector('.maincontform.authTrue');
+
+            function validateAmount() {
+                const amount = parseFloat(amountInput.value);
+                
+                if (isNaN(amount) || amount <= 0) {
+                    // No amount entered
+                    errorNoAmount.style.display = 'block';
+                    errorMinAmount.style.display = 'none';
+                } else if (amount < 200) {
+                    // Amount less than 200
+                    errorNoAmount.style.display = 'none';
+                    errorMinAmount.style.display = 'block';
+                } else {
+                    // Valid amount
+                    errorNoAmount.style.display = 'none';
+                    errorMinAmount.style.display = 'none';
+                }
+            }
+
+            // Validate on input change
+            amountInput.addEventListener('input', validateAmount);
+
+            // Validate on form submit
+            depositForm.addEventListener('submit', function(event) {
+                if (errorNoAmount.style.display === 'block' || errorMinAmount.style.display === 'block') {
+                    event.preventDefault(); // Prevent form submission if validation fails
+                }
+            });
+        });
+
+</script>
+<!-- 
+<input class="trxAmount1" type="text" placeholder="Enter Amount">
+<div class="trxAmountError11 error">Please enter amount</div>
+<div class="trxAmountError12 error">Minimum amount is 200 TRX</div>
+<input type="submit" value="Make deposit" class="maindescbut investButton1"> -->
+
+
+<div class="remodal" data-remodal-id="wallet">
+  <a data-remodal-action="close" class="remodal-close"></a>
+  <h1 style="color: #2b2b2b;">Your Wallet Statistic</h1>
+  <div class="modaldesc">
+    <form class="maincontform authFalse">
+      <input type="text" placeholder="Connect with your wallet app..." readonly>
+      <div class="modalref">
+          Connect with your <b class="gt" style="color: rgb(35, 192, 192);">TronLink</b> / <b class="gt"  style="color: rgb(35, 192, 192);">TronPay</b> browser extension, or <b class="gt"  style="color: rgb(35, 192, 192);">TronWallet</b> / <b class="gt"  style="color: rgb(35, 192, 192);">Banko</b> mobile app. After connection you will get the opportunity to make a contribution (reload this page).
+          <br>
+          <u>Please, contact our support team if you can't connect.</u>
+          <br><br>
+          <div class="userRefererDiv" style="color: #2b2b2b;">
+              <i class="fa fa-user-friends" ></i> Your upline partner wallet: <span class="userReferer">No upline</span>
+          </div>
+      </div>
+  </form>
+ 
+
+          </div>
+
+  <div class="modaldesc authTrue" style="display:none">
+      <div class="modaldesc">
+          <form class="maincontform">
+              <label>Your <img src="images/tron.svg" alt> TRX wallet address:</label>
+              <input type="text" class="trxWallet" readonly>
+              <div class="modalref">
+                  <i class="fal fa-link"></i> Your referral link:
+                  <span class="reflink">...</span>
+                  <small>- Share this link with your partners to get referral rewards</small><br>
+                  <small>- You should have active deposit to unlock affiliate bonuses! You will get no rewards without active deposit.</small>
+              </div>
+          </form>
+      </div>
+      <div class="modal_valuemain" style="display: flex; justify-content: space-around; margin-top: 20px;">
+        <div class="modal_valuemain_left">
+            <div class="modal_valuetitle" style="font-size: 14px;">Your Current Daily Bonus %</div>
+            <div class="modal_valueresult dailybalancerate" style="font-size: 18px; font-weight: bold;">0</div>
+            <div class="modal_valuetitle" style="font-size: 14px;">Basic Bonus %</div>
+            <div class="modal_valueresult basicPercentRate" style="font-size: 18px; font-weight: bold;">0</div>
+        </div>
+        <div class="modal_valuemain_right">
+            <div class="modal_valuetitle" style="font-size: 14px;">User Hold-bonus %</div>
+            <div class="modal_valueresult holdPercentRate" style="font-size: 18px; font-weight: bold;">0</div>
+          <div class="modal_valuetitle" style="font-size: 14px;">User Leader Bonus Rate %</div>
+            <div class="modal_valueresult leaderbonus" style="font-size: 18px; font-weight: bold;">0</div>
+        </div>
+    </div>
+
+    <ul class="modal_strip d-block m-0" style="list-style: none; padding: 0; text-align: center; margin-top: 20px;">
+        <li style="font-size: 12px; margin-bottom: 10px;"><span class="title" style="font-weight: bold;">Total Contributed:</span> <span class="value userTotalDeposits" style="font-weight: bold;">0</span> <span class="prefix" >TRX</span></li>
+        <li style="font-size: 12px; margin-bottom: 10px; visibility: hidden;"><span class="title" style="font-weight: bold;">Total Refferal Earned:</span> <span class="value userEarned" style="font-weight: bold;">0</span> <span class="prefix">TRX</span></li>
+        <li style="font-size: 12px; margin-bottom: 10px;"><span class="title" style="font-weight: bold;">Total Withdrawn </span> <span class="value userTotalWithdrawn" style="font-weight: bold;">0</span> <span class="prefix">TRX</span></li>
+    </ul>
+
+    <div class="modal_valuemain" style="display: flex; justify-content: space-around; margin-top: 20px;">
+        <div class="modal_valuemain_left">
+            <div class="modal_valuetitle" style="font-size: 14px;">Reinvested  Amount:</div>
+            <div class="modal_valueresult" style="font-size: 18px; font-weight: bold;"><span class="reinvestAmount">0.00</span><img src="media/img/tron.png" alt="" style="vertical-align: middle;"></div>
+            <!-- <div class="modal_valuetitle" style="font-size: 14px;">Referral rewards</div>
+            <div class="modal_valueresult" style="font-size: 18px; font-weight: bold;"><span class="userRefsEarned">0</span><img src="media/img/tron.png" alt="" style="vertical-align: middle;"></div> -->
+        </div>
+        <div class="modal_valuemain_right">
+            <div class="modal_valuetitle" style="font-size: 14px;">Number of Interaction</div>
+            <div class="modal_valueresult userAmountOfDeposits" style="font-size: 18px; font-weight: bold;">0</div>
+            <!-- <div class="modal_valuetitle" style="font-size: 14px;">Last deposit date</div>
+            <div class="modal_valueresult userLastDepositTime" style="font-size: 18px; font-weight: bold;">no deposits</div> -->
+        </div>
+    </div>
+
+    <ul class="modal_strip_1 d-block m-0" style="list-style: none; padding: 0; text-align: center; margin-top: 20px; background-image: #f9f9f9;">
+      <li style="font-size: 12px; margin-bottom: 10px;"><span class="title" style="font-weight: bold;">Available Referral Bonus</span> <span class="value userAvailableBonus" style="font-weight: bold;">0</span> <span class="prefix" >TRX</span></li>
+      <li style="font-size: 12px; margin-bottom: 10px;"><span class="title" style="font-weight: bold;">Available Dividend Bonus</span> <span class="value userdividend" style="font-weight: bold;">0</span> <span class="prefix">TRX</span></li>
+      <li style="font-size: 12px; margin-bottom: 10px;"><span class="title" style="font-weight: bold;">Available Match Bonus</span> <span class="value matchBonus" style="font-weight: bold;">0</span> <span class="prefix">TRX</span></li>
+  </ul>
+
+    <div class="wallet" style="text-align: center; margin-top: 20px;">
+        <ul class="modal_strip m-0" style="list-style: none; padding: 0;">
+            <li class="one" style="font-size: 14px; margin-bottom: 10px;">
+                <span class="title" style="font-weight: bold;">Available Total Withdraw Balance</span>
+                <span class="value userAvailable" style="font-weight: bold;">0</span>
+                <span class="prefix">TRX</span>
+            </li>
+            <li class="two">
+                <div class="modallineflex">
+                    <center class="modallinewrap" style="width: 100%;">
+                        <button class="maindescbut withdrawButton withdrawBtn" style="padding: 0px 20px; font-size: 14px; background-color: #3cb371; color: #fff; border: none; cursor: pointer; outline: none;">Withdraw</button>
+                    </center>
+                </div>
+            </li>
+        </ul>
+        <p class="totalsumnum" style="font-size: 12px; margin-top: 10px;">You can withdraw 60% of your earnings, and 40% will be reinvested in your account.</p>
+    </div>
+
+
+    <!-- changes level  -->
+    <ul class="modal_strip" style="list-style: none; padding: 0; text-align: left; margin-top: 20px;">
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">1st Level:</span> 
+          <span class="value userRefsLevel1" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">2nd Level:</span> 
+          <span class="value userRefsLevel2" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">3rd Level:</span> 
+          <span class="value userRefsLevel3" style="font-weight: bold;">0.</span>
+      </li>
+
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">4th Level:</span> 
+          <span class="value userRefsLevel4" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">5th Level:</span> 
+          <span class="value userRefsLevel5" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">6th Level:</span> 
+          <span class="value userRefsLevel6" style="font-weight: bold;">0.</span>
+      </li>
+
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">7th Level:</span> 
+          <span class="value userRefsLevel7" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">8th Level:</span> 
+          <span class="value userRefsLevel8" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">9th Level:</span> 
+          <span class="value userRefsLevel9" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+          <span class="title" style="font-weight: bold;">10th Level:</span> 
+          <span class="value userRefsLevel10" style="font-weight: bold;">0.</span>
+      </li>
+      <li style="font-size: 12px; margin-bottom: 10px;">
+        <span class="title" style="font-weight: bold;">11th Level:</span> 
+        <span class="value userRefsLevel11" style="font-weight: bold;">0.</span>
+    </li>
+    <li style="font-size: 12px; margin-bottom: 10px;">
+        <span class="title" style="font-weight: bold;">12th Level:</span> 
+        <span class="value userRefsLevel12" style="font-weight: bold;">0.</span>
+    </li>
+    <li style="font-size: 12px; margin-bottom: 10px;">
+      <span class="title" style="font-weight: bold;">13th Level:</span> 
+      <span class="value userRefsLevel13" style="font-weight: bold;">0.</span>
+  </li>
+  </ul>
+  <!-- ends -->
+
+    <hr class="line" style="border-top: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px;">
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <form class="maincontform" style="margin-bottom: 0;">
+            <label style="font-size: 14px;">Your referral link:</label>
+            <input id="reflink" type="text" value="" style="width: 100%; padding: 8px; font-size: 12px;">
+            <button class="maindescbut buttoncopy" data-clipboard-target="#reflink" style="padding: 0px 15px; font-size: 12px; background-color: #007bff; color: #fff; border: none; cursor: pointer; outline: none;">Copy referral link</button>
+        </form>
+
+        <style>
+                  #reflink {
+          width: 100%;
+          padding: 8px;
+          font-size: 12px;
+          box-sizing: border-box;
+        }
+      
+        /* Mobile-specific adjustments */
+        @media (max-width: 768px) {
+          #reflink {
+            font-size: 14px; /* Increase font size for better readability */
+            padding: 10px;   /* Adjust padding to give more touch area */
+          }
+        }
+      
+        /* Further adjustments for very small screens */
+        @media (max-width: 480px) {
+          #reflink {
+            font-size: 16px; /* Further increase font size */
+            padding: 12px;   /* Increase padding */
+          }
+        }
+      </style>
+    </div>
+  </div>
+</div>
+
+<div class="remodal" data-remodal-id="tron">
+  <a data-remodal-action="close" class="remodal-close"></a>
+  <!--<img src="images/tron_full.svg" class="modallogo" alt>-->
+  <div class="modaldesc">
+      <img src="images/tron.svg" alt> <b>TRON (TRX)</b> - one of the largest blockchain-based operating systems in the world, consistently handles 2000 transactions per second. Also, TRX is one of the most popular cryptocurrency coin with ~$1.12b market cup.
+      <h3>How to get TRX?</h3>
+      You can easily get TRX on every popular exchangers like <a href="https://binance.com/" class="modallink" terget="_blank">Binance</a>, <a href="https://poloniex.com/" class="modallink" terget="_blank">Poloniex</a>, <a href="https://www.bitfinex.com/" class="modallink" terget="_blank">Bitfinex</a>, <a href="https://okex.com/" class="modallink" terget="_blank">OKEx</a> and many others. After exchange send TRX on your personal wallet and after that send it to our smart-contract address.<br><br>
+      <b class="gt"><i class="fas fa-exclamation-triangle"></i> IMPORTANT!</b> We are working only with personal wallets. Dont make deposits form exchangers accounts, you will lose funds, because payouts will come to exchanger address, not yours!
+      <h3>What TRX personal wallets to use?</h3>
+      You can use two types of wallets:<br>
+      - <b>Browser extensions</b>. For example <b>TronLink</b> / <b>TronPay</b>. Just install extension on your favorite browser and create personal wallet address.<br><br>
+      - <b>Mobile crypto wallets</b>. You can use any personal crypto wallet, which support TRX cryptocurrency and "TRON dapps" technology, for example: <a href="https://klever.io/" class="modallink" terget="_blank">Klever Wallet</a>
+  </div>
+</div>
+  
+  
+  <script src="New Js/classie.js"></script>
+  <script src="New Js/cbpAnimatedHeader.min.js"></script>
+  <script src="New Js/parallax.js"></script>
+  <script src="New Js/remodal.min.js"></script>
+  <script src="New Js/clipboard.min.js"></script>
+  <script>
+  window.counter = function() {
+	var span = this.querySelector('span');
+	var current = parseInt(span.textContent);
+	span.textContent = current + 1;
+  };
+  document.addEventListener('DOMContentLoaded', function() {
+	var trigger = new ScrollTrigger({
+		addHeight: true
+	});
+  });
+  </script>
+  <script>
+  function animateNumbers() {
+	var num = $(".totalsumnum1");
+	num.each(function(indx, el) {
+		var max = $(el).data("max");
+		var duration = 1500;
+		var visibility = checkViewport(el);
+		$(el).on("animeNum", function() {$({n: 0}).animate({n: max}, {easing: "linear",duration: duration,step: function(now, fx) {$(el).html(now | 0)}})}).data("visibility", visibility);
+		visibility && $(el).trigger("animeNum")
+	});
+  
+	function checkViewport(el) {
+		var H = document.documentElement.clientHeight,
+			h = el.scrollHeight,
+			pos = el.getBoundingClientRect();
+		return pos.top + h > 0 && pos.bottom - h < H
+	}
+	$(window).scroll(function() {
+		num.each(function(indx, el) {
+			var visibility = checkViewport(el);
+			el = $(el);
+			var old = el.data("visibility");
+			old != visibility && el.data("visibility", visibility) && !old && el.trigger("animeNum")
+		})
+	})
+  }
+  $(function() {
+	animateNumbers();
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+	$("a.scrollto").click(function() {
+		var elementClick = $(this).attr("href")
+		var destination = $(elementClick).offset().top;
+		jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
+		return false;
+	});
+  });
+  </script>
+  <script src="New Js/easing.js" type="text/javascript"></script>
+  <script src="New Js/jquery.ui.totop.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+	$().UItoTop({
+		easingType: 'easeOutQuart'
+	});
+  });
+  </script>
+  
+  <script src="New Js/clipboard.min.js"></script>
+  <script>
+  var contractAddress = 'TD9Qezng16PZh2FfDUsU6TsiA3kTzqnY75';
+  var userReferer = 'No upline';
+  var refererDefault = 'TAowADvZX42wXnd3dhbDypK2vyCDCf3rd4';
+  var language = 'zh';
+  </script>
+  <script src="New Js/site.min.js" type="text/javascript"></script>
+
+  <script src="New Js/maincode.js"></script>
+  
+  
+  <!-- Modal End -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+  <!-- Mirrored from assistify-svelte.vercel.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Aug 2024 07:07:19 GMT -->
+</html>
